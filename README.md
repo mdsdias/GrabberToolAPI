@@ -1,7 +1,6 @@
 <p align="center">
-    <img style="border-radius: 50%;" src="https://imgur.com/iYkqIWM.gif" width="150px" alt="">
+    <img style="border-radius: 50%;" src="https://imgur.com/iYkqIWM.gif" width="150px" alt="gif">
     <h1 align="center">GrabberToolAPI</h1>
-    <h2 align="center">By Isqne!</h1>
 </p>
 
 <div>
@@ -12,11 +11,44 @@
             </div>
             <div align="left">
                 <br /><h2>Docs da verção em <a href="https://github.com/Isqneeh/GrabberTool">PythonScript!</h2><br /></a>
-                <br /><h2><a href="https://github.com/Isqneeh/GrabberTool-WebSite">Site!</a> Oficial do GrabberTool</h2><br /></a>
+                <br /><h2><a href="https://github.com/Isqneeh/GrabberTool-WebSite"> Site </a> Oficial do GrabberTool</h2><br /></a>
             </div>
         </center>
     </p>
 </div>
 
-<h1> Documentação! </h1>
+# Documentação!
 
+<h2> Eu fiz essa "API" sozinho portanto quero que entendam que ela tera varios erros e bugs inicialmente peço que me chamem nas rede socias no final do readme </h2>
+
+# Instalação
+
+```console
+pip install grabbertool
+```
+
+# Em script
+## CPF
+```py
+import grabbertool
+consulta = grabbertool.search()
+
+consulta.cpf('12345678910')
+```
+
+## CNPJ
+```py
+import grabbertool
+consulta = grabbertool.search()
+
+consulta.cnpj('12345689456789')
+```
+
+## CEP
+
+```py
+import grabbertool
+consulta = grabbertool.search()
+
+consulta.cep('123456789')
+```
